@@ -3,8 +3,10 @@
 # kurtosis run github.com/ethpandaops/ethereum-package --args-file ./network-configs/devnet-1/kurtosis_network_params.yaml --image-download always
 participants:
   - el_type: geth
+    el_image: "ethereum/client-go:latest"
     el_log_level: "trace"
     cl_type: lighthouse
+    cl_image: "sigp/lighthouse:v7.0.1"
     cl_log_level: "trace"
     count: 1
 network_params:
