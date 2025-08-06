@@ -8,7 +8,7 @@ participants:
     cl_type: lighthouse
     cl_image: "sigp/lighthouse:v7.0.1"
     cl_log_level: "trace"
-    count: 1
+    count: 3
 network_params:
   network_id: "20031997"
 additional_services:
