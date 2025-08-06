@@ -8,7 +8,7 @@ participants:
     cl_log_level: "trace"
     count: 1
 network_params:
-  network: "devnet-1"
+  network: "my-private-devnet-1"
   network_id: "20031997"
   devnet_repo: "antonio-emilio"
 additional_services:
